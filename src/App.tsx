@@ -27,7 +27,7 @@ function App() {
 
   useEffect(() => {
     const wsUrl =
-      process.env.NODE_ENV === "development"
+      process.env.NODE_ENV === "production"
         ? process.env.REACT_APP_WS_URL_PROD
         : process.env.REACT_APP_WS_URL;
 
