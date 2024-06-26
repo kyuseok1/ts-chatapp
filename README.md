@@ -1,6 +1,6 @@
 # 🌐 채팅 사이트
 
-`WebSocket`을 이용해 만든 채팅 사이트입니다. `TypeScript`와 `Express`, `Node`를 사용했으며, 프론트는 `Vercel`, 백엔드는 `Heroku`를 사용해 배포했습니다.
+`WebSocket`을 이용해 만든 채팅 사이트입니다. `TypeScript`와 `Express`, `Node`를 사용했으며, 프론트는 `Vercel`, 백엔드는 `Heroku`를 사용해 배포했습니다. 이 사이트는 MVC 패턴을 사용했습니다. 모델은 메시지와 사용자 데이터(서버의 clients와 messageHistory), 뷰는 React 컴포넌트(예: UserList, ChatBox 등), 컨트롤러는 웹소켓 이벤트 핸들러(서버의 ws.on("message", ...))입니다.
 
 <br>
 
